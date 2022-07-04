@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    /* display: flex; */
+    padding-top: 200px;
+    width: 500px;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 'a a b' 'c d d''c e e';
+    gap: 10px;
+}
+
+main div {
+    padding: 2em;
+    text-align: center;
+}
+
+.box1 {
+    background-color: #eb5020;
+    grid-area: a;
+}
+
+.box2 {
+    background-color: #ffa401;
+    grid-area: b;
+}
+
+.box3 {
+    background-color: #05aa42;
+    grid-area: c;
+}
+
+.box4 {
+    background-color: #01aefd;
+    grid-area: d;
+}
+
+.box5 {
+    background-color: #01aefd;
+    grid-area: e;
+}
